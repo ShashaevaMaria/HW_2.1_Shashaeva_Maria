@@ -21,15 +21,17 @@
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <rect key="contentStretch" x="0.5" y="0.5" width="1" height="1"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bUW-m9-nus">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bUW-m9-nus">
                                 <rect key="frame" x="14" y="484" width="402" height="414"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="bUW-m9-nus" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Lzw-8d-5p0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bUW-m9-nus" secondAttribute="trailing" constant="14" id="MD6-gU-Yd4"/>
+                            <constraint firstItem="bUW-m9-nus" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="bpg-ge-loH"/>
                             <constraint firstItem="C7B-tl-1U0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="mTg-Q5-5pH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C7B-tl-1U0" secondAttribute="trailing" constant="14" id="ov9-iK-3sQ"/>
                             <constraint firstItem="C7B-tl-1U0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="phj-aw-Ohf"/>
